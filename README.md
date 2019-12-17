@@ -20,7 +20,7 @@ CHECKPOINT;
 SELECT pg_dropcache();
 ```
 
-## Apendix
+## Appendix
 To check buffer state enable extension which is delivered with database by default:
 ```
 CREATE EXTENSION pg_buffercache;
