@@ -26,7 +26,7 @@ To check buffer state enable extension which is delivered with database by defau
 CREATE EXTENSION pg_buffercache;
 ```
 
-Print buffers:
+[Print buffers](https://hollobon.com/techblog/clear_shared_buffers.html):
 ```
 SELECT c.relname,
        count(*)                                                     AS buffers,
