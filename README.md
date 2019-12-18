@@ -1,4 +1,4 @@
-# PostgreSQL 12.1 with pg_dropcache  
+# PostgreSQL 12.1 with pg_dropcache and pgAgent
 This repository contains Docker image of Postgres from [official Docker repository](https://github.com/docker-library/postgres) with a [precompiled extension](https://github.com/zilder/pg_dropcache) which allows to flush a database buffers.
 
 ## Motivation

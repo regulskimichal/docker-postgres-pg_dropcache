@@ -1,6 +1,6 @@
 FROM postgres:12.1
 RUN apt update; \
-    apt install -y git postgresql-server-dev-12 gcc make; \
+    apt install -y git postgresql-server-dev-12 gcc make pgagent; \
     cd "/root"; \
     git clone 'https://github.com/zilder/pg_dropcache.git'; \
     cd pg_dropcache; \
