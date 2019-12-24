@@ -2,7 +2,7 @@
 This repository contains Docker image of Postgres from [official Docker repository](https://github.com/docker-library/postgres) with a [precompiled extension](https://github.com/zilder/pg_dropcache) which allows to flush a database buffers.
 
 ## Motivation
-By default, in PostgreSQL there is no built-in method to flush buffers. This image delivers a PostgreSQL with built-in extension which allows to flush a database buffers.
+By default, in PostgreSQL there is no built-in method to flush buffers. This image delivers a PostgreSQL with built-in extension which allows to flush database buffers.
 
 ## Usage
 ### [Enabling extension](https://github.com/zilder/pg_dropcache):
